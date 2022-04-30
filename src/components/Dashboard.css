@@ -1,0 +1,402 @@
+body{
+  font-family: 'Roboto';
+}
+.count-box {
+  background-color: rgb(42, 42, 48);
+  border-radius: 15px;
+  margin-left: 0px;
+  /* box-shadow: 3px 3px 5px rgb(109 109 122); */
+  height: 150px;
+  padding: 20px 20px;
+}
+.count-box.today-bookings{
+  height: auto;
+}
+
+.count-box-count {
+  font-size: 26px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+.count-box-title {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.count-box .food-items h4{
+  font-size:18px;
+}
+.broadcast-box {
+  background-color: rgb(93, 93, 97);
+  border-radius: 10px;
+  padding: 30px 30px;
+  height: auto;
+}
+
+.booknow-box {
+  background-color: rgba(93, 93, 97, 0);
+  border-radius: 10px;
+  padding: 0px 40px;
+  height: 520px;
+}
+
+.broadcast-title {
+  color: #fff;
+}
+
+.broadcast-message {
+  color: #fff;
+  padding-top: 20px;
+  padding-right: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_body {
+    /* padding-left: 0px; */
+    padding: 0px 0px 30px 0px;
+}
+  .details-box {
+    padding: 10px 20px;
+  }
+  .count-box {
+    background-color: rgb(42, 42, 48);
+    border-radius: 15px;
+    margin-left: 0px;
+    height: 150px;
+    padding: 20px;
+  }
+
+  .count-box-count {
+    font-size: 26px;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+
+  .count-box-title {
+    font-size: 18px;
+  }
+  
+
+  .broadcast-box {
+    background-color: rgb(93, 93, 97);
+    border-radius: 10px;
+    padding: 30px 30px;
+    height: auto;
+  }
+
+  .booknow-box {
+    background-color: rgba(93, 93, 97, 0);
+    border-radius: 10px;
+    padding: 0px 10px;
+    height: 520px;
+  }
+
+  .broadcast-title {
+    color: #fff;
+  }
+
+  .broadcast-message {
+    color: #fff;
+    padding-top: 20px;
+    padding-right: 0px;
+    text-align: justify;
+  }
+}
+
+.redeem-form,.ticketmanager {
+  background-color: "rgb(42, 42, 48)";
+  height: "auto";
+  margin-top: 150px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.redeem-form{
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .redeem-form ,.ticketmanager {
+    background-color: "rgb(42, 42, 48)";
+    height: "auto";
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-left: 0px;
+  }
+  .redeem-form{
+    margin-top: 20px;
+  } 
+  .admin{
+    display: flex;
+  }
+  .tickets-filter{
+    color: #fff;
+    width: auto;
+  }
+}
+/* Redeem ticket page */
+.tickets-filter{
+  color: #fff;
+  width: 500px;
+}
+.tickets-filter p{
+  color: #fff;
+  font-weight: bold;
+}
+.tickets-filter p.active{
+  color: #5c76f7;
+  font-weight: bold;
+}
+
+.card img {
+  padding: 20px;
+}
+.ticket-card .card-body{
+ height: 250px;
+}
+
+.card .ticket-id {
+  font-family: "NimbusSansL";
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #5c76f7;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "NimbusSansL";
+  color: #2a2a30;
+}
+
+.booking-time {
+  color: #767677;
+  font-size: 12px;
+  font-family: "NimbusSansL";
+}
+
+.branch {
+  color: #2a2a30;
+  font-size: 18px;
+  font-family: "NimbusSansL";
+}
+
+.note-title {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.note-dis {
+  font-size: 14px;
+}
+
+.redeem-btn {
+  outline: none;
+  box-shadow: none;
+  bottom: 20px;
+  width: 50%;
+  left:25%
+}
+
+.card-body {
+  position: relative;
+}
+
+.redeemed-ribbon {
+  position: absolute;
+  top: 20%;
+}
+
+.redeemed-ribbon img {
+  opacity: 0.7;
+  transform: rotate(-45deg);
+  width: 100%;
+  padding: 0px !important; 
+  /* display: none; */
+}
+.expiry-ribbon{
+  position: absolute;
+  top:20%;
+  }
+  
+.expiry-ribbon img{
+  opacity: 0.7;
+  transform: rotate(-40deg);
+  width: 100%;
+  padding: 0px !important; 
+  }
+
+#otpModel .modal-content {
+  background-color: rgb(42, 42, 44);
+}
+
+#otpModel .modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #fff;
+}
+
+#otpModel .btn-close {
+  color: #fff;
+  background: url("../img/close-button.svg") center/1em auto no-repeat;
+}
+
+#otpModel .modal-body {
+  padding: 40px 10px;
+}
+
+#otpModel .modal-body .btn {
+  border-radius: 50px;
+  padding: 0px 15px;
+}
+/*
+#otpModel
+
+#otpModel */
+
+/* History page css  */
+
+.top-filter{
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+} 
+
+@media only screen and (max-width: 700px) {
+  .top-filter{
+    flex-direction: column-reverse;
+    align-items: stretch;
+    padding: 0px 0px
+  }
+  .top-filter .filter-btns{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+  }
+  .ReactTable{
+    padding: 10px 5px 35px 5px !important;
+  }
+} 
+
+.top-filter .input{
+  width: 250px;
+  height: 34px;
+  padding: 0px 10px;
+}
+
+.ReactTable {
+  border: none !important;
+  background-color: #fff;
+  padding:35px 15px;
+}
+
+.ReactTable .rt-thead .rt-th.-cursor-pointer,
+.ReactTable .rt-thead .rt-td.-cursor-pointer {
+  background: rgba(0, 55, 120, 1);
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+}
+.ReactTable .rt-thead .rt-tr {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.05) !important;
+}
+.ReactTable .rt-th,
+.ReactTable .rt-td {
+  padding: 10px 8px !important;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  /* font-weight: 500; */
+  border: 0.5px solid #000000 !important;
+}
+
+.ReactTable .-pagination .-btn {
+  background: #ffffff00 !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 12px;
+}
+.pagination-bottom {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+.ReactTable .-pagination .-btn[disabled] {
+  border-radius: 5px !important;
+  font-size: 14px;
+}
+.ReactTable .-pagination {
+  box-shadow: unset !important;
+  border-top: unset !important;
+  margin-right:10px;
+}
+.ReactTable .-pagination .-btn {
+  /* width: 30px !important; */
+  border-radius: 5px !important;
+  font-size: 14px;
+  /* padding: 6px 28px !important; */
+  position: relative;
+}
+.ReactTable .-pagination input {
+  border: unset !important;
+  background: unset !important;
+  padding: 0;
+  width: 39px !important;
+  margin-right: -6px;
+}
+
+.ReactTable .-pagination .-pageSizeOptions {
+  display: none;
+}
+.ReactTable .-pagination .-btn[disabled] {
+  opacity: 1 !important;
+  cursor: default;
+}
+
+.ReactTable .-pagination .-pageInfo {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+.ReactTable .-pagination .-pageJump input {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .ReactTable .-pagination {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap !important;
+    padding: 3px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+    border-top: 2px solid rgba(0,0,0,0.1);
+    align-content: center;
+    }
+    .pagination-bottom {
+      display: flex;
+      justify-content: center;
+      margin: 44px 0;
+    }
+    .ReactTable .-pagination {
+      box-shadow: unset !important;
+      border-top: unset !important;
+      margin-right: 0px;
+    }
+    .broadcast-box{
+display: none;
+    }
+}
